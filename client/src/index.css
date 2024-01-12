@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', sans-serif; */
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+
+.active{
+  border-bottom: 1px solid black;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 3px;
+}
+.footer{
+  color: white;
+  padding: 25px;
+  background: #000000;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px soild #ffefba;
+}
+
+.ohhello{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ohhello:hover{
+  font-size: 1.02rem;
+  transition: all 1s ease-out;
+}
+
+#main{
+  display: table;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+}
+
+.fof{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof h1{
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .5s alternate infinite;
+}
+
+@keyframes type{
+  from{box-shadow: inset -3px 0px 0px #888;}
+  to{box-shadow: inset -3px 0px 0px transparent;}
+}
+
+
+
+.kuchtohhai {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  line-height: 1.5;
+  a {
+    color: #bf0222;
+  }
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .kuchtohhai {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+  .warning {
+    display: none;
+  }
+}
+
+
+/* *****************register******************* */
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
